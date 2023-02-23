@@ -66,6 +66,7 @@ function App() {
     exchange()
   }
 
+  
 const exchange = () =>{
   let value = inputRef.current.value;
   var res = 0
