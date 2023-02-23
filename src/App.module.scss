@@ -1,0 +1,29 @@
+body {
+ background-image: url("./images/image.png");
+ 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.parent{
+   @apply h-8 text-center bg-gradient-to-r from-violet-600 to-fuchsia-600 border-purple-800 text-white font-sans font-bold text-lg bg-opacity-20 rounded-md m-1
+}
+.butt{
+    @apply bg-gradient-to-r text-center from-violet-500 to-fuchsia-500 h-10 w-10 border-2 border-purple-800 hover:bg-purple-500 bg-opacity-60 bg-purple-500 font-bold text-xl rounded-full
+}
+.input{
+    @apply mx-1 my-1 text-gray-300  bg-slate-400 border-none rounded-md bg-opacity-30 p-1
+}
+.selector{
+    @apply text-center text-gray-500 bg-black 
+}
+.main{
+    @apply text-center
+}
+.selectors{
+    @apply inline-block w-60 text-center
+}
