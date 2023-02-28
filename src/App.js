@@ -61,11 +61,14 @@ function App() {
       .catch(error => console.log('error', error));
   }
 
+
+
   const switchValues = () =>{
     inputRef.current.value = result;
     exchange()
   }
 
+  Request()
   
 const exchange = () =>{
   let value = inputRef.current.value;
@@ -139,11 +142,7 @@ const exchange = () =>{
   setResult(res)
 }
 
-function changeFirst (value) {
-  
-  
-  
-}
+
 
 
   return (
@@ -189,4 +188,3 @@ export default App;
 
 
 
-//sBJsC5v5LT5IZ9m7Bu6CLCN85yCsuH1s
